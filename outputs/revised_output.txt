@@ -1,0 +1,35 @@
+## Security Best Practices
+
+To protect your MoEngage account, follow these essential security recommendations:
+
+### 1. Strong Authentication
+
+- **Enable Two-Factor Authentication (2FA)** for all users to prevent unauthorized access. This adds an extra layer of security by verifying each user's identity.
+- **Set up Single Sign-On (SSO)** for organization-wide access using SAML 2.0. This streamlines and secures user authentication.  
+  *Need help? Your IT team can assist with SSO setup.*
+
+### 2. Granular Access Controls
+
+- Assign **role-based permissions** to users, giving them only the access they need.
+- Use **Campaign Approval Workflows** to oversee and control campaign publishing, ensuring compliance and quality.
+
+### 3. Network Restrictions
+
+- **Enable IP Whitelisting** to restrict access to trusted networks only. Whitelist your VPN IP to further secure platform access.
+- Don’t have a VPN? Consider open-source options like **OpenVPN** or **Pritunl**.
+- *Note: IP Whitelisting is available only for Enterprise plan users. Contact your Customer Success Manager for more information.*
+
+### 4. User Access Audits
+
+- **Review user access every 2 weeks.** Remove inactive or unnecessary accounts.
+- **Minimize the number of Admin and Manager roles.** We recommend having only one Admin per account.
+- Regularly review and downgrade roles that no longer require elevated permissions.
+
+### 5. Session Timeout
+
+- MoEngage will log users out after one day of inactivity by default.
+- Want to change this? **Raise a support ticket** via the MoEngage Dashboard.
+
+---
+
+For further help with implementing these best practices, reach out to your MoEngage Customer Success Manager.
